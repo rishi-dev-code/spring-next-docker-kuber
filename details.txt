@@ -16,3 +16,16 @@ C:\ui5\javasw\spring-next-docker-kuber\springnextdock\pom.xml
 5) Initial Commit and push .
  git add .
  git commit -m "added spring API initial project"
+ git push -u origin main
+
+tables:
+ Bookmark
+  complex key -
+  UUID
+  ID of author ( which has its own generated UUID)
+
+  pagination
+
+
+
+
