@@ -1,0 +1,18 @@
+1) Created a remote repo 
+https://github.com/rishi-dev-code/spring-next-docker-kuber
+
+2) Created a local folder , git init and added repo as remote target
+C:\ui5\javasw\spring-next-docker-kuber
+git init
+git branch -M main
+git remote add origin https://github.com/rishi-dev-code/spring-next-docker-kuber.git
+
+3) Added generated sping proj in the local folder .
+C:\ui5\javasw\spring-next-docker-kuber\springnextdock
+
+4) Now opened the local folder in intellij , clicked on pm of spring proj and added as maven  project.
+C:\ui5\javasw\spring-next-docker-kuber\springnextdock\pom.xml
+
+5) Initial Commit and push .
+ git add .
+ git commit -m "added spring API initial project"
