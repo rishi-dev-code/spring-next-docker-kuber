@@ -1,0 +1,14 @@
+server:
+  port: 9192
+spring:
+  #https://stackoverflow.com/questions/53172123/flyway-found-non-empty-schemas-public-without-schema-history-table-use-bas
+  flyway:
+    baseline-on-migrate: true
+  datasource:
+    url: jdbc:postgresql://salt.db.elephantsql.com/nxthtmyt
+    username: nxthtmyt
+    password: rN0mo4Lqc989BE73y_eTWX2nmmdYQ6Ea
+  jpa:
+    show-sql: true
+  application:
+    name: BOOKMARK-SERVICE
